@@ -1,0 +1,16 @@
+﻿카테고리,API/기능,설명,Stage Manager 용도
+창 관리,EnumWindows,모든 활성 창을 열거하여 목록 생성,활성 앱 목록 관리
+창 관리,SetWindowPos,"창의 위치, 크기, Z-order 변경",창 배치 및 그룹화
+창 관리,GetWindowRect,창의 현재 위치와 크기 정보 획득,창 위치 추적
+창 관리,FindWindow,특정 창 핸들 찾기,특정 앱 창 식별
+이벤트 처리,SetWinEventHook,시스템 이벤트 모니터링,앱 상태 변화 감지
+이벤트 처리,SetWindowsHookEx,키보드/마우스 입력 이벤트 후킹,사용자 입력 처리
+이벤트 처리,WinEventProc,이벤트 콜백 함수 처리,실시간 이벤트 반응
+데스크톱 컴포지션,DWM,Windows 창 컴포지션 시스템,창 효과 및 애니메이션
+데스크톱 컴포지션,DwmRegisterThumbnail,창의 썸네일 미리보기 생성,왼쪽 사이드바 미리보기
+데스크톱 컴포지션,DwmUpdateThumbnailProperties,썸네일 속성 업데이트,썸네일 시각화
+가상 데스크톱,VirtualDesktopAPI,Windows 10+ 가상 데스크톱 기능,다중 데스크톱 지원
+가상 데스크톱,IVirtualDesktopManager,가상 데스크톱 관리 인터페이스,데스크톱 간 앱 이동
+그래픽,GDI+,2D 그래픽 렌더링,사용자 인터페이스 렌더링
+그래픽,Direct2D,하드웨어 가속 2D 그래픽,부드러운 애니메이션
+그래픽,DirectComposition,고성능 합성 API,레이어 합성

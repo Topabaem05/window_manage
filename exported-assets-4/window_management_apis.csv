@@ -1,0 +1,22 @@
+API/라이브러리,유형
+SetWindowPos,Win32 API
+FindWindow,Win32 API
+EnumWindows,Win32 API
+GetWindowRect,Win32 API
+SetWinEventHook,Win32 API
+ITaskbarList,COM Interface
+IThumbnailProvider,COM Interface
+IShellItemImageFactory,COM Interface
+IVirtualDesktopManager,COM Interface
+System.Windows.Window,.NET/WPF
+WindowsUIAutomation,.NET/WPF
+WPF Window Manager,.NET/WPF
+UIAutomation,자동화 라이브러리
+UIAComWrapper,자동화 라이브러리
+Python-UIAutomation-for-Windows,자동화 라이브러리
+DwmRegisterThumbnail,DirectComposition
+DwmUpdateThumbnailProperties,DirectComposition
+DirectComposition API,DirectComposition
+PowerToys FancyZones,서드파티 도구
+Window Layout Manager,서드파티 도구
+Groupy by Stardock,서드파티 도구

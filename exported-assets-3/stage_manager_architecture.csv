@@ -1,0 +1,10 @@
+﻿컴포넌트,주요 책임,사용 API,상호작용
+WindowManager,전체 창 관리 및 조정,"EnumWindows, SetWindowPos","EventHandler, StageManager와 연동"
+EventHandler,시스템 이벤트 처리 및 콜백,"SetWinEventHook, WinEventProc",WindowManager에게 이벤트 전달
+ThumbnailRenderer,창 미리보기 생성 및 관리,"DwmRegisterThumbnail, GDI+",StageManager에게 미리보기 제공
+StageManager,Stage Manager 핵심 로직,모든 컴포넌트 통합,"LayoutEngine, AppGroupManager 조정"
+LayoutEngine,창 배치 및 레이아웃 계산,"GetWindowRect, SetWindowPos",WindowManager에게 배치 정보 제공
+AnimationSystem,UI 전환 애니메이션,"Direct2D, DirectComposition",ThumbnailRenderer와 협력
+AppGroupManager,앱 그룹화 및 워크스페이스,"FindWindow, GetWindowText",StageManager와 데이터 교환
+VirtualDesktopInterface,가상 데스크톱 연동,IVirtualDesktopManager,StageManager와 통합
+HookManager,시스템 훅 관리,SetWindowsHookEx,EventHandler에게 이벤트 전달
